@@ -167,23 +167,14 @@ export const Input: FC<InputProps> = ({
       </div>
       <div className="px-3 pb-3 pt-2 text-center text-xs text-black/50 dark:text-white/30 md:px-4 md:pb-6 md:pt-3">
         <a
-          href="https://github.com/miurla/babyagi-ui"
+          href="https://elysiuminnovations.ai"
           target="_blank"
           rel="noreferrer"
           className="underline"
         >
-          BabyAGI UI
+          Elysium Agent UI
         </a>
-        {' is designed to make it easier to run and develop with '}
-        <a
-          href="https://github.com/yoheinakajima/babyagi"
-          target="_blank"
-          rel="noreferrer"
-          className="underline"
-        >
-          babyagi
-        </a>
-        {' in a web app, like a ChatGPT.'}
+        {' is designed to make it easier to see agents run and \'think\' in a web app, like a ChatGPT.'}
       </div>
     </div>
   );
