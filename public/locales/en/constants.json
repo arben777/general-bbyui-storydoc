@@ -16,11 +16,11 @@
   "ALERT_GPT_4_DISABLED": "Your API key doesn't have access rights to GPT-4. Please select a model other than GPT-4 and run it.",
   "USER_INPUT_PLACEHOLDER": "Enter your answer here...",
   "ERROR_CREATING_TASKS": "Error creating tasks",
-  "EXAMPLES": "Examples Just For Steve! (clickable), Try these with Agent BabyAGI too!",
-  "EXAMPLE_OBJECTIVE_1": "Report on some of the Greatest MLB Games in History",
-  "EXAMPLE_OBJECTIVE_2": "Why is Steve Cohen's Investment Strategy The Best",
-  "EXAMPLE_OBJECTIVE_3": "Write a weather report for the next 3 days in New York",
-  "EXAMPLE_OBJECTIVE_4": "Create a Presentation on Major MLB League Changes in 2023",
-  "EXAMPLE_OBJECTIVE_5": "Report Cool MLB News",
-  "EXAMPLE_OBJECTIVE_6": "Write a weather report for the next 3 days in New York"
+  "EXAMPLES": "Examples For Potential Elysium Investors (clickable).",
+  "EXAMPLE_OBJECTIVE_1": "Analyze market trends for user-controlled AI technologies.",
+  "EXAMPLE_OBJECTIVE_2": "Research and summarize ethical considerations of transparent AI.",
+  "EXAMPLE_OBJECTIVE_3": "Curate a list of thought leaders in the AI space and suggest collaboration opportunities.",
+  "EXAMPLE_OBJECTIVE_4": "Identify challenges in the current AI landscape and propose solutions.",
+  "EXAMPLE_OBJECTIVE_5": "Investigate the rise of digital personal assistant.",
+  "EXAMPLE_OBJECTIVE_6": "Report Intersting New AI News"
 }

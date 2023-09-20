@@ -49,14 +49,14 @@ function Home() {
         <title>Steve&apos;s BabyAGI</title>
         <meta
           name="description"
-          content="BabyAGI UI is designed to make it easier to run and develop with babyagi in a web app, like a ChatGPT."
+          content="Elysium Agent UI is designed to make it easier to see agents run and 'think' in a web app, like a ChatGPT."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <meta property="og:title" content="BabyAGI-UI" />
         <meta
           property="og:description"
-          content="BabyAGI UI is designed to make it easier to run and develop with babyagi in a web app, like a ChatGPT."
+          content="Elysium Agent UI is designed to make it easier to see agents run and 'think' in a web app, like a ChatGPT."
         />
         <meta property="og:url" content="https://babyagi-ui.vercel.app/" />
         <meta
@@ -67,7 +67,7 @@ function Home() {
         <meta name="twitter:title" content="BabyAGI-UI" />
         <meta
           name="twitter:description"
-          content="BabyAGI UI is designed to make it easier to run and develop with babyagi in a web app, like a ChatGPT."
+          content="Elysium Agent UI is designed to make it easier to see agents run and 'think' in a web app, like a ChatGPT."
         />
         <meta name="twitter:image" content="/og-image.png" />
       </Head>
