@@ -46,7 +46,7 @@ function Home() {
   return (
     <>
       <Head>
-        <title>Steve&apos;s BabyAGI</title>
+        <title>Elysium&apos;s Agent UI</title>
         <meta
           name="description"
           content="Elysium Agent UI is designed to make it easier to see agents run and 'think' in a web app, like a ChatGPT."
@@ -64,7 +64,7 @@ function Home() {
           content="https://babyagi-ui.vercel.app/og-image.png"
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="BabyAGI-UI" />
+        <meta name="twitter:title" content="Elysium AI Agent Demo" />
         <meta
           name="twitter:description"
           content="Elysium Agent UI is designed to make it easier to see agents run and 'think' in a web app, like a ChatGPT."
