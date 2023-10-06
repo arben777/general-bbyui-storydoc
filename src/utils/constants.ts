@@ -37,19 +37,19 @@ export const BABYBEEAGI_ITERATIONS = [
 export const AGENT = [
   {
     id: 'babydeeragi',
-    name: 'BabyDeerAGI',
-    icon: '🦌',
+    name: 'Elysium Task Agent w Internet',
+    icon: '🧙+🌐',
     message: '🤖/🔎+📄/🧑‍💻',
     badge: 'STABLE',
   },
   {
     id: 'babyelfagi',
-    name: 'BabyElfAGI',
-    icon: '🧝',
+    name: 'Elysium elk Task Agent',
+    icon: '🧙',
     message: '(Currently using GPT-4 for task creation)',
     badge: 'BETA',
   },
-  { id: 'babyagi', name: 'BabyAGI', icon: '👶', message: '🤖' },
+  { id: 'babyagi', name: 'Elysium Task Agent', icon: '🧙', message: '🤖' },
 ];
 
 export const THEME = [

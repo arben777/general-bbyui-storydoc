@@ -9,19 +9,21 @@ import { languages } from '../utils/languages';
 import { STATE_KEY } from '@/utils/constants';
 import { UIState } from '@/types/index.js';
 import { CollapsedButton } from '@/components/Sidebar/CollapsedButton';
+import { useTheme } from 'next-themes';
 
 function Home() {
   const [showSidebar, setShowSidebar] = useState<boolean>(false);
+  const { theme, setTheme } = useTheme();
+
+  useEffect(() => {
+    setTheme('dark');
+  }, []);
 
   useEffect(() => {
     const item = localStorage.getItem(STATE_KEY);
     let show = false;
     if (!item) {
-      if (window.innerWidth <= 768) {
         show = false;
-      } else {
-        show = true;
-      }
     } else {
       const state = JSON.parse(item) as UIState;
       if (state?.showSidebar === undefined) {

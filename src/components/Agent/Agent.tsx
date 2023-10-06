@@ -38,7 +38,7 @@ import { SkillsList } from './SkillList';
 
 export const Agent: FC = () => {
   const [model, setModel] = useState<SelectItem>(MODELS[1]);
-  const [iterations, setIterations] = useState<SelectItem>(ITERATIONS[0]);
+  const [iterations, setIterations] = useState<SelectItem>(ITERATIONS[3]);
   const [objective, setObjective] = useState<string>('');
   const [firstTask, setFirstTask] = useState<string>(
     translate('FIRST_TASK_PLACEHOLDER', 'constants'),

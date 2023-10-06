@@ -34,11 +34,10 @@ useEffect(() => {
       option = AGENT.filter(
         (agent) =>
           agent.id === 'babyagi' ||
-          agent.id === 'babydeeragi' ||
-          agent.id === 'babyelfagi' ,
+          agent.id === 'babydeeragi'
       );
     } else {
-      option = AGENT;
+      option = AGENT.filter(agent => agent.id !== 'babyelfagi');
     }
     setAgent(option[0]);
     setAgentOption(option);
@@ -50,7 +49,7 @@ useEffect(() => {
         <Select
           label={translate('MODEL')}
           item={model}
-          items={MODELS}
+          items={MODELS.filter((model) => model.id !== 'gpt-4-0613')}
           onChange={(value) => {
             setModel(MODELS.find((model) => model.id === value)!);
           }}
